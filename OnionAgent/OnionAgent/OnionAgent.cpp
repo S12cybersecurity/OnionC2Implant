@@ -1,20 +1,75 @@
-// OnionAgent.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <winsock2.h>
+#include <ws2tcpip.h>  
 
-int main()
-{
-    std::cout << "Hello World!\n";
+#pragma comment(lib, "ws2_32.lib")
+
+int main() {
+    WSADATA wsaData;
+    SOCKET sock;
+    struct sockaddr_in server;
+    char buffer[4096];
+    std::string request;
+
+    // Initialize Winsock
+    if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
+        std::cerr << "WSAStartup failed.\n";
+        return 1;
+    }
+
+    // Create socket
+    sock = socket(AF_INET, SOCK_STREAM, 0);
+    if (sock == INVALID_SOCKET) {
+        std::cerr << "Socket creation failed.\n";
+        WSACleanup();
+        return 1;
+    }
+
+    // Setup server struct
+    server.sin_family = AF_INET;
+    server.sin_port = htons(5000);
+
+    // Set server IP address
+    if (InetPton(AF_INET, L"192.168.1.144", &server.sin_addr) <= 0) {
+        std::cerr << "Invalid IP address.\n";
+        closesocket(sock);
+        WSACleanup();
+        return 1;
+    }
+
+    // Connect to redirector
+    if (connect(sock, (struct sockaddr*)&server, sizeof(server)) < 0) {
+        std::cerr << "Connection failed.\n";
+        closesocket(sock);
+        WSACleanup();
+        return 1;
+    }
+
+    // Send HTTP GET request
+    request = "GET /getCommand HTTP/1.1\r\n";
+    request += "Host: 192.168.1.144\r\n";
+    request += "Connection: close\r\n\r\n";
+
+    if (send(sock, request.c_str(), request.length(), 0) < 0) {
+        std::cerr << "Send failed.\n";
+        closesocket(sock);
+        WSACleanup();
+        return 1;
+    }
+
+    // Receive and display response
+    int bytesReceived;
+    do {
+        bytesReceived = recv(sock, buffer, sizeof(buffer) - 1, 0);
+        if (bytesReceived > 0) {
+            buffer[bytesReceived] = '\0';
+            std::cout << buffer;
+        }
+    } while (bytesReceived > 0);
+
+    // Cleanup
+    closesocket(sock);
+    WSACleanup();
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
