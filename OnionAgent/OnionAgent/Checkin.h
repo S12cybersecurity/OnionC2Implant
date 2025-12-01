@@ -493,7 +493,8 @@ bool SendRegisterRequest(const SystemInfo& info,
 
     LPCWSTR headers = L"Content-Type: application/json\r\n";
 
-    DWORD dataSize = static_cast(json.size());
+    //DWORD dataSize = static_cast(json.size());
+    DWORD dataSize = static_cast<DWORD>(json.size());
 
     if (!WinHttpSendRequest(hRequest,
         headers,
@@ -523,7 +524,7 @@ bool SendRegisterRequest(const SystemInfo& info,
 
             if (dwSize == 0) break;
 
-            std::vector buffer(dwSize + 1, 0);
+            std::vector<char> buffer(dwSize + 1, 0);  // Use char instead of unsigned char
             DWORD dwDownloaded = 0;
             if (!WinHttpReadData(hRequest, buffer.data(), dwSize, &dwDownloaded)) {
                 std::wcerr << L"WinHttpReadData failed: " << GetLastError() << std::endl;

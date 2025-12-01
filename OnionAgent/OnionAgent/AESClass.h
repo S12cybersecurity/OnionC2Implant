@@ -222,7 +222,7 @@ public:
         else if (keyStr.length() > 32) {
             std::memcpy(key, keyStr.c_str(), 32);
             for (size_t i = 32; i < keyStr.length(); i++) {
-                key[i % 32] ^= static_cast(keyStr[i]);
+                key[i % 32] ^= static_cast<uint8_t>(keyStr[i]);
             }
         }
         else {
@@ -233,14 +233,14 @@ public:
     }
 
     std::string encrypt(const std::string& plaintext) {
-        std::vector data(plaintext.begin(), plaintext.end());
+        std::vector<uint8_t> data(plaintext.begin(), plaintext.end());
 
         // PKCS7 padding
         uint8_t padLen = 16 - (data.size() % 16);
         for (int i = 0; i < padLen; i++)
             data.push_back(padLen);
 
-        std::vector ciphertext;
+        std::vector<uint8_t> ciphertext;
 
         for (size_t i = 0; i < data.size(); i += 16) {
             uint8_t state[4][4];
@@ -273,7 +273,7 @@ public:
         if (hexCiphertext.size() % 2 != 0)
             throw std::runtime_error("Ciphertext hex length must be even");
 
-        std::vector data;
+        std::vector<uint8_t> data;
         data.reserve(hexCiphertext.size() / 2);
 
         for (size_t i = 0; i < hexCiphertext.size(); i += 2) {
@@ -283,7 +283,7 @@ public:
         if (data.size() % 16 != 0)
             throw std::runtime_error("Ciphertext length must be multiple of 16 bytes");
 
-        std::vector plaintextBytes;
+        std::vector<uint8_t> plaintextBytes;
         plaintextBytes.reserve(data.size());
 
         for (size_t i = 0; i < data.size(); i += 16) {

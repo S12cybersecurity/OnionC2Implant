@@ -1,11 +1,18 @@
 #pragma once
+#define NOMINMAX
 #include <windows.h>
-#include <bcrypt.h>
+#include <wbemidl.h>
+#include <comdef.h>
+#include <iostream>
 #include <string>
 #include <vector>
+#include <winhttp.h>
+#include <VersionHelpers.h>
+#include <bcrypt.h>
 #include <sstream>
 #include <iomanip>
-#include <algorithm>  // For std::min
+#include <algorithm>
+#include "Utils.h"
 
 
 #pragma comment(lib, "bcrypt.lib")
@@ -13,7 +20,8 @@
 std::string ToHex(const std::vector<unsigned char>& data, size_t maxBytes = 16) {  // Fixed: added <unsigned char>
     std::ostringstream oss;
     oss << std::hex << std::setfill('0');
-    size_t n = std::min(maxBytes, data.size());  // Use std::min instead of min
+    //size_t n = std::min(maxBytes, data.size());  // Use std::min instead of min
+    size_t n = (std::min)(maxBytes, data.size());  // Extra parentheses prevent macro expansion
     for (size_t i = 0; i < n; ++i) {
         oss << std::setw(2) << static_cast<unsigned int>(data[i]);  // Added <unsigned int>
     }
