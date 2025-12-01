@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="domains.cpp" />
     <ClCompile Include="OnionAgent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AESClass.h" />
+    <ClInclude Include="Checkin.h" />
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="domains.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="UUID.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

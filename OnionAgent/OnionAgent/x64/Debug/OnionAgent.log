@@ -1,3 +1,499 @@
 ﻿  OnionAgent.cpp
-C:\Users\s12\Documents\GitHub\MalwareDeveloped\OnionC2Implant\OnionAgent\OnionAgent\OnionAgent.cpp(53,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  OnionAgent.vcxproj -> C:\Users\s12\Documents\GitHub\MalwareDeveloped\OnionC2Implant\OnionAgent\x64\Debug\OnionAgent.exe
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\Utils.h(16,21): error C2589: '(': illegal token on right side of '::'
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\Utils.h(16,21): error C2059: syntax error: ')'
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(496,33): error C2760: syntax error: '(' was unexpected here; expected '<'
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(496,33): error C2059: syntax error: '('
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(526,31): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      see declaration of 'std::vector'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(528,51): error C2663: 'std::vector<_Ty,_Alloc>::data': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1836,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::data(void) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(528,51):
+          'const _Ty *std::vector<_Ty,_Alloc>::data(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(528,44):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(528,44):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1832,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::data(void) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(528,51):
+          '_Ty *std::vector<_Ty,_Alloc>::data(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(528,44):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(528,44):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(528,51):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(533,36): error C2663: 'std::vector<_Ty,_Alloc>::data': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1836,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::data(void) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(533,36):
+          'const _Ty *std::vector<_Ty,_Alloc>::data(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(533,29):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(533,29):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1832,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::data(void) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(533,36):
+          '_Ty *std::vector<_Ty,_Alloc>::data(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(533,29):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(533,29):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\checkin.h(533,36):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(225,43): error C2760: syntax error: '(' was unexpected here; expected '<'
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(225,43): error C2059: syntax error: '('
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(236,25): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      see declaration of 'std::vector'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(239,37): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(239,32):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(239,32):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(239,37):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(241,18): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(241,18):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(241,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(241,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(932,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(241,18):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(241,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(241,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(241,18):
+      while trying to match the argument list '(uint8_t)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(243,21): error C2133: 'ciphertext': unknown size
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(243,21): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      see declaration of 'std::vector'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(245,37): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(245,32):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(245,32):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(245,37):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(250,35): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1937,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(250,35):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(250,35):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(250,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1927,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(250,35):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(250,35):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(250,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(250,35):
+      while trying to match the argument list '(std::vector, size_t)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(259,32): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(259,32):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(259,21):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(259,21):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(932,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(259,32):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(259,21):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(259,21):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(259,32):
+      while trying to match the argument list '(uint8_t)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_begin': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1896,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+          'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1892,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+          '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_end': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1904,40):
+      could be 'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+          'const _Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1900,34):
+      or       '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+          '_Ty *std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(266,29):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(276,21): error C2133: 'data': unknown size
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(276,21): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      see declaration of 'std::vector'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(277,14): error C2662: 'void std::vector<_Ty,_Alloc>::reserve(allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(277,9):
+      Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(277,9):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1723,23):
+      see declaration of 'std::vector<_Ty,_Alloc>::reserve'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(277,14):
+      while trying to match the argument list '(unsigned __int64)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(280,18): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(280,18):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(280,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(280,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(932,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(280,18):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(280,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(280,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(280,18):
+      while trying to match the argument list '(uint8_t)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(283,18): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(283,13):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(283,13):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(283,18):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(286,21): error C2133: 'plaintextBytes': unknown size
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(286,21): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+      see declaration of 'std::vector'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(287,37): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(287,32):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(287,32):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(287,37):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(289,37): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(289,32):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(289,32):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(289,37):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(295,39): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1937,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(295,39):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(295,39):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(295,39):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1927,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(295,39):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(295,39):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(295,39):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(295,39):
+      while trying to match the argument list '(std::vector, size_t)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(304,36): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(304,36):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(304,21):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(304,21):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(932,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(304,36):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(304,21):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(304,21):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(304,36):
+      while trying to match the argument list '(uint8_t)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(310,28): error C2662: 'bool std::vector<_Ty,_Alloc>::empty(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(310,13):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(310,13):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1908,47):
+      see declaration of 'std::vector<_Ty,_Alloc>::empty'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(310,28):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(313,41): error C2663: 'std::vector<_Ty,_Alloc>::back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1992,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::back(void) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(313,41):
+          'const _Ty &std::vector<_Ty,_Alloc>::back(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(313,26):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(313,26):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1983,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::back(void) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(313,41):
+          '_Ty &std::vector<_Ty,_Alloc>::back(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(313,26):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(313,26):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(313,41):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(314,67): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(314,52):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(314,52):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(314,67):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(317,40): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(317,25):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(317,25):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(317,40):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(317,76): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(317,61):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(317,61):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(317,76):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(318,17): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1937,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(318,17):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(318,17):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(318,17):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1927,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(318,17):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(318,17):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(318,17):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(318,17):
+      while trying to match the argument list '(std::vector, size_t)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,46): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'OnionAgent.cpp')
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,31):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,31):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,46):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,24): error C2663: 'std::vector<_Ty,_Alloc>::resize': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1628,23):
+      could be 'void std::vector<_Ty,_Alloc>::resize(const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,24):
+          'void std::vector<_Ty,_Alloc>::resize(const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,9):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,9):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(321,24):
+      while trying to match the argument list '(allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,43): error C2663: 'std::vector<_Ty,_Alloc>::begin': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1845,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,43):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,28):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,28):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1840,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,43):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,28):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,28):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,43):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,67): error C2663: 'std::vector<_Ty,_Alloc>::end': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'OnionAgent.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1855,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,67):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,52):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,52):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include\vector(1850,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept'
+          B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,67):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,52):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,52):
+              Conversion requires a second user-defined-conversion operator or constructor
+      B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\AESClass.h(323,67):
+      while trying to match the argument list '()'
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\Commands.h(27,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\Commands.h(74,89): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\Commands.h(78,91): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\Commands.h(102,37): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\Commands.h(101,37): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'OnionAgent.cpp')
+  
+B:\C2-0x12\OnionC2\OnionC2Implant\OnionAgent\OnionAgent\Commands.h(194,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'OnionAgent.cpp')
+  
