@@ -1,5 +1,7 @@
 # 🧅 OnionC2Implant – Modular Tor-based C2 Infrastructure
 
+[!] The C++ agent don't compile due a personal error with git, i have lost the major part of the files
+
 **OnionC2Implant** is a modular Command & Control (C2) infrastructure designed for research, red teaming, and ethical malware development.  
 It consists of three main components:
 
